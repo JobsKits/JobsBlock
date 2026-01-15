@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'JobsBlock'
-  spec.version          = '1.0.1'
+  spec.version          = '1.0.2'
   spec.summary          = 'JobsOCBaseConfig.JobsBlock'
   spec.description      = <<-DESC
   所有的项目根据这个根来进行统一配置和调用
@@ -22,7 +22,6 @@ DESC
 
   # ✅ 建议用 https（避免别人/CI 没 SSH key 时 lint/安装失败）
   spec.source           = { :git => 'https://github.com/JobsKits/JobsBlock.git', :tag => spec.version.to_s }
-  # spec.source       = { :git => 'https://github.com/JobsKits/JobsBlock.git', :tag => spec.version.to_s }
 
   spec.platform         = :ios, '9.0'
   spec.requires_arc     = true
@@ -54,5 +53,5 @@ DESC
   spec.frameworks   = 'UIKit','Foundation'
   # 框架依赖的其他第三方库
   # spec.dependency 'SDWebImage' # "~> 1.4"
-  
+
 end
