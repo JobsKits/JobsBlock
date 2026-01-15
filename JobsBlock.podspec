@@ -8,22 +8,22 @@
 
 Pod::Spec.new do |spec|
   spec.name             = 'JobsBlock'
-  spec.version          = '1.0.0'
+  spec.version          = '1.0.1'
   spec.summary          = 'JobsOCBaseConfig.JobsBlock'
   spec.description      = <<-DESC
   所有的项目根据这个根来进行统一配置和调用
   做到全局的一致和统一 
   千万要保证这个工程的编译通过，以后项目直接进行引用
            DESC
-  spec.homepage         = 'https://github.com/295060456/JobsBlock'
+  spec.homepage         = 'https://github.com/JobsKits/JobsBlock'
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.author           = { 'Jobs' => 'lg295060456@gmail.com' }
   # 这里的commit会和Github进行通讯，这里的值不能是自定义。
   # commit 参数用于指定从 Github 存储库中获取代码时要使用的提交哈希值
   # 注意不要包含:commit参数,因为CocoaPods会自动使用最新的commit
-  spec.source       = {:git => "git@github.com:295060456/JobsBlock.git",:tag => "#{spec.version}"}
-  # spec.source       = {:git => "https://github.com/295060456/JobsBlock.git",:tag => "#{spec.version}"}
-  spec.social_media_url = 'https://github.com/295060456'
+  spec.source       = {:git => "git@github.com:JobsKits/JobsBlock.git",:tag => "#{spec.version}"}
+  # spec.source       = {:git => "https://github.com/JobsKits/JobsBlock.git",:tag => "#{spec.version}"}
+  spec.social_media_url = 'https://github.com/JobsKits'
   spec.ios.deployment_target = '10.0'
   spec.swift_version = '5.0'
   spec.requires_arc = true
